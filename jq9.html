@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#wiki").attr("href","https://www.google.com");
+            });
+        });
+    </script>
+    <button>Click</button>
+    <p><a href="https://www.wikipedia.org" id="wiki">wikipedia</a></p>
+</body>
+</html>
