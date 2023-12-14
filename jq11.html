@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            color: rgb(22, 22, 189);
+        }
+        .b{
+            color: greenyellow;
+        }
+        .c{
+            color: crimson;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p").addClass("a"),
+                $("p1").addClass("b"),
+                $("p2").addClass("c")
+            });
+        });
+    </script>
+    <button>click</button>
+    <p>bluev</p>
+    <p1>Green</p>
+    <p2>Crimson</p>
+</body>
+</html>
