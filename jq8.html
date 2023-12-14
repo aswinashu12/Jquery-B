@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                $("#p1").text("hello");
+            })
+            $("#b2").click(function(){
+                $("#p2").text("hi");
+            });
+        });
+    </script>
+    <button id="b1">click</button>
+    <button id="b2">Cancel</button>
+    <p id="p1">Protocol</p>
+    <p id="p2">Longitude</p>
+</body>
+</html>
